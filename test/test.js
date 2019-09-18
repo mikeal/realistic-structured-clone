@@ -45,7 +45,6 @@ describe('Valid Input', function () {
         confirmWorks(6);
         confirmWorks(NaN);
         confirmWorks(true);
-        confirmWorks(undefined);
         confirmWorks(null);
     });
 
@@ -92,7 +91,6 @@ describe('Valid Input', function () {
             a: 1,
             b: 2,
             c: true,
-            d: undefined,
             e: 'f'
         });
     });
@@ -126,7 +124,7 @@ describe('Valid Input', function () {
                 c: {
                     d: 1,
                     e: true,
-                    f: [1, 'a', undefined, {g: 6, h: 10}]
+                    f: [1, 'a', {g: 6, h: 10}]
                 }
             }
         });
