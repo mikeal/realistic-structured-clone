@@ -1,5 +1,7 @@
 # Realistic Structured Clone 
 
+![39837](https://img.shields.io/badge/compiled%20bundle-40k-yellowgreen) ![9311](https://img.shields.io/badge/gzipped%20bundle-9k-green)
+
 This is a fork of https://github.com/dumbmatter/realistic-structured-clone with Node.js support removed in order
 to bring down the bundle size in the browser. Recent versions of Node.js have a much better/faster way to do
 deep clones using v8 serialize/deserialize.
